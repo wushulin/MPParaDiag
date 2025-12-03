@@ -39,4 +39,6 @@
   * Generate_Random.h Computing reference solutions, updating ParaDiag iteration vectors, calculating residuals
   * lu_gpu.cuh, lu_gpu.cu Implementing GPU-parallel ParaDiag solving, using block-wise parallel LU decomposition as solver
 
+  
+
 * Program compilation: The program involves fftw3 library, Eigen library, OpenBLAS library and cublas library, with MPI environment. Required to add corresponding library paths during compilation, using nvcc for compilation.
